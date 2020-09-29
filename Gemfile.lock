@@ -47,7 +47,11 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
+<<<<<<< HEAD
     bcrypt (3.1.16)
+=======
+    ast (2.4.1)
+>>>>>>> cf0b02c0ba81646399816c126606773f6223c47c
     bindex (0.8.1)
     bootsnap (1.4.8)
       msgpack (~> 1.0)
@@ -89,6 +93,7 @@ GEM
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     io-like (0.3.1)
+    jaro_winkler (1.5.4)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
     listen (3.1.5)
@@ -111,7 +116,13 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+<<<<<<< HEAD
     orm_adapter (0.5.0)
+=======
+    parallel (1.19.2)
+    parser (2.7.1.5)
+      ast (~> 2.4.1)
+>>>>>>> cf0b02c0ba81646399816c126606773f6223c47c
     public_suffix (4.0.6)
     puma (3.12.6)
     rack (2.2.3)
@@ -141,14 +152,28 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
+    rainbow (3.0.0)
     rake (13.0.1)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (1.8.0)
+<<<<<<< HEAD
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
+=======
+    rexml (3.2.4)
+    rubocop (0.81.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    ruby-progressbar (1.10.1)
+>>>>>>> cf0b02c0ba81646399816c126606773f6223c47c
     ruby_dep (1.5.0)
     rubyzip (2.3.0)
     sass (3.7.4)
@@ -187,8 +212,12 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
+<<<<<<< HEAD
     warden (1.2.9)
       rack (>= 2.0.9)
+=======
+    unicode-display_width (1.7.0)
+>>>>>>> cf0b02c0ba81646399816c126606773f6223c47c
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -215,6 +244,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.4)
+  rubocop (~> 0.81.0)
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
