@@ -12,7 +12,7 @@
   <body>
    <div class="head"> 
    <% if user_signed_in?  %> 
-   <%= current_user.email%>
+   <%= current_user.username%>
     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
    <%= link_to "Logout",  destroy_user_session_path, method: :delete, class: "head" %> 
       <% else %>
