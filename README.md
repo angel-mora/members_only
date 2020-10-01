@@ -1,24 +1,50 @@
-# README
+# Rails Members Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> In this project you’ll be building an exclusive clubhouse where your members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is, but outside they can only see the story and wonder who wrote it.
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby 2.7.0p
+- Rails 5.2.4.3
+- Devise gem
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+```
+git clone url
+rails db:migrate
+rails server
+```
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Gabriel Hilarion**
 
-* Deployment instructions
+- GitHub: [@githubhandle](https://github.com/gabrie-lhilarion)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabrielhilarion/)
 
-* ...
+👤 **Angel Mora**
+
+- GitHub: [@githubhandle](https://github.com/angel-mora)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/angelmoram/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
