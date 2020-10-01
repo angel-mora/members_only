@@ -1,5 +1,3 @@
 module PostsHelper
-    def display_posts
-
-    end
+  def display_posts; end
 end
