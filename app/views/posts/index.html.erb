@@ -11,12 +11,18 @@
         <td>
           <h2> <%= post.title %> </h2>
           <div>  <%= post.comment %></div>
+          
+        
           <% if user_signed_in? %>
            <strong> <%= post.user.name %> <strong><br>
             <% end %> 
+
+
             <%= link_to 'Show', post %>
+            <% if post.user == current_user%>
             <%= link_to 'Edit', edit_post_path(post) %>
             <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+            <% end %>
         </td>
       </tr>
     <% end %>
