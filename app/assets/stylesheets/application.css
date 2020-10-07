@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
  .head {
      text-align: right;
      font-weight: bold;
@@ -22,3 +23,10 @@
  .error {
      color: red;
  }
+=======
+.head {
+  text-align: right;
+  font-weight: bold;
+  color: #000;
+}
+>>>>>>> d8cb38a7a135879cfccb0807006892f1585daf6a
