@@ -1,0 +1,17 @@
+<%= form_with(model: post, local: true) do |form| %>
+ <div class="error"><%= display_errors(@post) %> </div>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_area :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :comment %>
+    <%= form.text_area :comment %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<table>
+  <tbody>
+         <% @posts.each do |post| %> 
+           <tr>
+              <td>
+                <h2> <%= post.title %> </h2>
+                <div>  <%= post.comment %></div>
+                <strong> <%= display_name(post) %> </strong>  <br/>
+                 <%= link_to 'Show', post %>
+                 <%= show_controls_if_poster(@user, post)%>
+               </td>
+             </tr>
+<% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>
