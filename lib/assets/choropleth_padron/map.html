@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incidencia Delictiva</title>
+    <!-- Chroma.js to handle color variations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+    <!-- Leaflet CSS source stylesheet-->
+    <link rel="stylesheet" href="js/leaflet/leaflet.css" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="js/leaflet/leaflet.js"></script>
+    <!-- Leaflet AJAX script for Leaflet queries-->
+    <script src="js/leaflet/ajax/leaflet.ajax.min.js"></script>
+
+    <style>
+        #mapid {
+            height: 99vh;
+        }
+    </style>
+
+    <!-- Marker cluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+
+    <!-- Marker cluster CDN -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+
+    <!-- After Leaflet and Leaflet.markercluster scripts -->
+    <script src="js/leaflet/mcg/leaflet.markercluster.layersupport.js"></script>
+
+    <!-- After Leaflet and Leaflet.markercluster scripts -->
+    <script src="js/leaflet/freezable/leaflet.markercluster.freezable.js"></script>
+</head>
+
+<body>
+    <div id="mapid">
+
+        <!-- Calling choroplet variables -->
+        <script src="js/leaflet/geojson/conteo_choropleth_padron.js"></script>
+
+        <!-- Leaflet Heatmap -->
+        <script src="js/leaflet/heat/leaflet-heat.js"></script>
+        <!-- <script type="text/javascript" src="js/leaflet/geojson/ch-abriSimplificado</script> -->
+
+        <script src="js/leaflet/choropleth_map.js"></script>
+    </div>
+</body>
+
+</html>
